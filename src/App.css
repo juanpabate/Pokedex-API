@@ -1,0 +1,69 @@
+.background-container{
+  background-image: url(../public/background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  filter: blur(15px);
+  position: relative;
+}
+
+.cards-container{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  position: absolute;
+  top: 15px;
+  left: 1550px;
+  /* right: 30px; */
+  width: 343px;
+  transform: rotate(6.23deg);
+  /* height: 197px; */
+}
+
+.buttons-container{
+  position: absolute;
+  bottom: 65px;
+  left: 730px;
+  display: flex;
+  width: 450px;
+  justify-content: space-around;
+}
+.cards-container .container:nth-child(1){
+  left: 320px;
+  top: 130px;
+  transform: rotate(-10deg);
+  z-index: 3;
+}
+.cards-container .container:nth-child(2){
+  left: 750px;
+  top: 100px;
+  z-index: 2;
+}
+.cards-container .container:nth-child(3){
+  left: 1180px;
+  top: 130px;
+  z-index: 1;
+  transform: rotate(10deg);
+}
+
+.element2{
+  left: 200px;
+  transform: rotate(5deg);
+  width: 1000px;
+  height: 800px;
+  top: -20px;
+}
+.element1{
+  left: 425px;
+  transform: rotate(10deg);
+  width: 1000px;
+  height: 800px;
+  top: -20px;
+}
