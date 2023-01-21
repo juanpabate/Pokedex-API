@@ -12,8 +12,8 @@ const Card = (props) => {
           <img src={props.img} alt="Pokemon Image" />
         </div>
         <div className='stats'>
-          <Stat attack={true} value={props.attack} />
-          <Stat attack={false} value={props.defense} />
+          <Stat attack={true} value={props.height} />
+          <Stat attack={false} value={props.weight} />
         </div>
     </div>
   )
